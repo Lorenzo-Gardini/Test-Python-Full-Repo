@@ -1,0 +1,4 @@
+sphinx
+coverage
+pytest
+pytest-cov
