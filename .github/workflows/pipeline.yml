@@ -50,7 +50,8 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
     - name: Build HTML
-      uses: ammaraskar/sphinx-action@master
+      run: |
+        sphinx-build -b html docs/source/ docs/build/html
     - name: Upload artifacts
       uses: actions/upload-artifact@v4
       with:
