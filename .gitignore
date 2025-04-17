@@ -1,4 +1,5 @@
 .idea/
 build/
+_build/
 env/
 .venv/
